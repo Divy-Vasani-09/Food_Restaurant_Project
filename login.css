@@ -1,0 +1,97 @@
+
+body{
+	background-image: url(./images/food5.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	text-align:center;
+	
+}
+p{
+	color:#fff;
+	font-size:230%;	
+}
+b{
+	color: #fff;
+	font-size: 85%;
+}
+form p{
+	color: #fff;
+}
+.form-box{
+	width:450px;
+	background: rgba(0,0,0,0.5);
+	margin: 5% auto;
+	padding: 40px 0;
+	color:#fff;
+	box-shadow: 20px 20px 200px 20px rgba(0,0,0,0.9);
+	border-radius:13%;
+}
+.input-box{
+	margin: 31px auto;
+	width: 80%;
+	border-bottom: 1px solid #fff;
+	padding-top :10px;
+	padding-bottom:5px;
+}
+.input-box input{
+	width: 90%;
+	border: none;
+	outline: none;
+	background : transparent;
+	color: #fff;
+	cursor: pointer;
+}
+.input-box i{
+	color: #fff;
+}
+.fa{
+	margin-right:10px;
+}
+
+.input-1 input{
+	font-size:100%;
+	border-color:gray;
+	color:white;
+	background-color:black;
+	width: 17%;
+	height: 5.5%;
+	border-radius:13%;
+	cursor: pointer;
+}
+.input-1 input:hover{
+	box-shadow: 0px 0px 10px #fff;
+	box-sizing:initial;
+	font-size: 102%;
+}
+#icon{
+	color: #fff;
+}
+::placeholder{
+	color: #fff;
+	font-size:130%;
+}
+.search ::placeholder{
+	color: black;
+}
+.eye{
+	position: absolute;
+	cursor: pointer;
+	
+}
+.sign p{
+    font-size: medium;
+}
+
+.sign p a{
+	font-size: large;
+	color: rgb(124, 99, 236);
+}
+
+#hide1{
+	display:none;
+}
+button{
+	color: #fff;
+}
+

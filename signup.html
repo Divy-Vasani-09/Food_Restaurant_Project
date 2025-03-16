@@ -1,0 +1,182 @@
+<html>
+<head>
+	<title>Saffron Crown | Sign up </title>
+	<link rel = "icon" href = "images/LOGOtBAR.png" type = "image/x-icon">
+	<link rel="stylesheet" href="signup.css"></link>
+	<link rel="stylesheet" href="home1.css"></link>
+	<link rel = "icon" href = "images/LOGOtBAR.png" type = "image/x-icon">
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="headerbar" id="headerbar">
+				<div class="account">
+					<ul>
+						<a href="#">
+							<li>
+								<i class="fa-solid fa-magnifying-glass" onclick="Function1()" id="searchicon1"></i>
+							</li>
+						</a>
+						<div class="search" id="searchinput1">
+							<input type="search" placeholder="Search">
+							<span class="glas" onclick="Refunction1()">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+						</div>
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">
+							<li>
+								<i class="fa-solid fa-user" id="user-mb"></i>
+							</li>
+						</a>
+					</ul>
+				</div>
+				<div class="nav">
+					<ul>
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/index.html">
+							<li>Home</li>
+						</a>
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/menu.html">
+							<li>Food Menu</li>
+						</a> 
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/table.html">
+							<li>Book Table</li>
+						</a>
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">
+							<li>Log In</li>
+						</a>
+					</ul>
+				</div>
+			</div>
+			<div class="logo">
+				<img src="images/Logo.png" alt="">
+			</div>
+			<div class="bar">
+				<i class="fa-solid fa-bars" id="Bar" onclick="medi()"></i>
+				<i class="fa-solid fa-xmark" id="hdcross" onclick="remedi()"></i>
+			</div>
+			<div class="nav">
+				<ul>
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/index.html">
+						<li>Home</li>
+					</a>
+					
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/menu.html">
+						<li>Food Menu</li>
+					</a> 
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/table.html">
+						<li>Book Table</li>
+					</a>
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">
+						<li>Log In</li>
+					</a>
+				</ul>
+			</div>
+			<div class="account">
+				<ul>
+					<a href="#">
+						<li>
+							<i class="fa-solid fa-magnifying-glass" onclick="Function2()" id="searchicon2"></i>
+						</li>
+					</a>
+					<div class="search" id="searchinput2">
+						<input type="search" placeholder="Search">
+						<span class="glass" onclick="Refunction2()">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</span>
+					</div>
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">
+						<li>
+							<i class="fa-solid fa-user" id="user-lap"></i>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<center>
+	<div class="form-box">
+		<form action="signup.php" method="post"></form>
+		<p>Sign Up</p>
+		
+		<div class="input-box">
+			<i class="fa fa-user"></i>
+			<input type="text" name="username" placeholder="User Name"></input>
+		</div>
+
+
+		<div class="input-box">
+		 <i class="fa fa-envelope-o"></i>
+			<input type="email" name="email" placeholder="EMAIL ID"></input>
+		</div>
+
+		<div class="input-box">
+		 <i class="fa fa-key"></i>
+			<input type="password" name="password" placeholder="Password" id="myinput"> </input>
+			<span class="eye" onclick="myFunction()">
+				<i id="hide1" class="fa fa-eye"></i>
+				<i id="hide2" class="fa fa-eye-slash"></i>
+			</span>		
+		</div>
+
+		<div class="input-1">
+			<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">
+				
+				<input type="button" value="Submit" onclick="Function()">
+			</a>
+		</div>
+	</form>
+		<br>
+		<div class="sign">
+			<p>Create New Account <a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">Log In</a></p> 
+		</div>
+	</div>
+	</center>
+		
+		<script>
+			function Function2() {
+				var x = document.getElementById("searchicon2");
+				var y = document.getElementById("searchinput2");
+				
+				if (1 === 1) { 
+					x.style.display = 'none';
+					y.style.display = 'flex';
+				}
+			}
+			function Refunction2() {
+				var x = document.getElementById("searchicon2");
+				var y = document.getElementById("searchinput2");
+				
+				if (1 === 1) { 
+					x.style.display = 'flex';
+					y.style.display = 'none';
+				}
+			}
+
+
+
+			function myFunction(){
+				var x = document.getElementById("myinput");
+				var y = document.getElementById("hide1");
+				var z = document.getElementById("hide2");
+
+				if(x.type === 'password'){
+					x.type = "text";
+					y.style.display = "block";
+					z.style.display = "none";
+				}
+				else{
+					x.type = "password";
+					y.style.display = "none";
+					z.style.display = "block";
+				}
+			}
+		</script>
+		<script>
+			function Function(){
+				alert("sccesfully Sign In");
+			}
+		</script>
+</body>
+</html>

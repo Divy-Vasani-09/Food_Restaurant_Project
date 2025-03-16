@@ -1,0 +1,156 @@
+<html>
+<head>
+	<title> Saffron Crrown | Table Reservation</title>
+	<link rel = "icon" href = "images/LOGOtBAR.png" type = "image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.looka.com/meta/apple-touch-icon.png">
+	<link rel="stylesheet" href="table.css"></link>
+    <link rel="stylesheet" href="e1.css"></link>
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta charset="UTF -8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+
+</head>
+<body>
+    <header>
+		<div class="header">
+			<div class="headerbar" id="headerbar">
+				<div class="account">
+					<ul>
+						<a href="#">
+							<li>
+								<i class="fa-solid fa-magnifying-glass" onclick="Function1()" id="searchicon1"></i>
+							</li>
+						</a>
+						<div class="search" id="searchinput1">
+							<input type="search" placeholder="Search">
+							<span class="glas" onclick="Refunction1()">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+						</div>
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">
+							<li>
+								<i class="fa-solid fa-user" id="user-mb"></i>
+							</li>
+						</a>
+					</ul>
+				</div>
+				<div class="nav">
+					<ul>
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/index.html">
+							<li>Home</li>
+						</a>
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/menu.html">
+							<li>Food Menu</li>
+						</a> 
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/table.html">
+							<li>Book Table</li>
+						</a>
+						<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">
+							<li>Log In</li>
+						</a>
+					</ul>
+				</div>
+			</div>
+			<div class="logo">
+				<img src="images/Logo.png" alt="">
+			</div>
+			<div class="bar">
+				<i class="fa-solid fa-bars" id="Bar" onclick="medi()"></i>
+				<i class="fa-solid fa-xmark" id="hdcross" onclick="remedi()"></i>
+			</div>
+			<div class="nav">
+				<ul>
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/index.html">
+						<li>Home</li>
+					</a>
+					
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/menu.html">
+						<li>Food Menu</li>
+					</a> 
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/table.html">
+						<li>Book Table</li>
+					</a>
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">
+						<li>Log In</li>
+					</a>
+				</ul>
+			</div>
+			<div class="account">
+				<ul>
+					<a href="#">
+						<li>
+							<i class="fa-solid fa-magnifying-glass" onclick="Function2()" id="searchicon2"></i>
+						</li>
+					</a>
+					<div class="search" id="searchinput2">
+						<input type="search" placeholder="Search">
+						<span class="glass" onclick="Refunction2()">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</span>
+					</div>
+					<a href="file:///C:/Users/Destiny/OneDrive/Desktop/website/login.html">
+						<li>
+							<i class="fa-solid fa-user" id="user-lap"></i>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<center>
+		<form action="" method="post">
+			<div class="form-box">
+				
+				<p> Table Reservation  </p>
+				
+				<div class="input-box">
+					<i class="fa fa-user"></i>
+					<input type="text" placeholder="Your Name"></input>
+				</div>
+
+				<div class="input-box">
+					<i class="fa fa-table-picnic"></i>
+					<input type="number" placeholder="Table Member's"> </input>		
+					
+				</div>
+				<div class="input-box">
+					<input type="datetime-local" id="inp"></input>
+				</div>
+				<div class="input-1">
+					<a href="file:///C:/Users/Destiny/Desktop/web/home.html">
+						<input type="button" value="submit" onclick="myFunction()"></input>
+					</a>
+				</div>
+			</div>
+		</form>
+	</center>
+		
+		<script>
+            function Function2() {
+                var x = document.getElementById("searchicon2");
+                var y = document.getElementById("searchinput2");
+                
+                if (1 === 1) { 
+                    x.style.display = 'none';
+                    y.style.display = 'flex';
+                }
+            }
+			
+            function Refunction2() {
+                var x = document.getElementById("searchicon2");
+                var y = document.getElementById("searchinput2");
+                
+                if (1 === 1) { 
+                    x.style.display = 'flex';
+                    y.style.display = 'none';
+                }
+            }
+
+			function myFunction(){
+				alert("sccesfully Table Reservation");
+			}
+		</script>
+</body>
+</html> 
