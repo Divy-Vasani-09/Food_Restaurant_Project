@@ -17,6 +17,26 @@ function Refunction2() {
     }
 }
 
+function medi() {
+    var x = document.getElementById("Bar");
+    var y = document.getElementById("hdcross");
+    var z = document.getElementById("headerbar");
+    
+    if (1 === 1) { 
+        y.style.display = 'flex';
+        z.style.right = '0%';
+    }
+}
+function remedi() {
+    var x = document.getElementById("Bar");
+    var y = document.getElementById("hdcross");
+    var z = document.getElementById("headerbar");
+    
+    if (1 === 1) { 
+        y.style.display = 'none';
+        z.style.right = '-100%';
+    }
+}
 
 function Function(){
 	var x = document.getElementById("myinput");
@@ -33,8 +53,6 @@ function Function(){
 		z.style.display = "block";
 	}
 }
-
-
 
 function myFunction(){
 	alert("sccesfully Log In");
